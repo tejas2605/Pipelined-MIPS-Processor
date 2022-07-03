@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mips_wrapper_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mips_wrapper" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="610092fs"></ZoomStartTime>
+      <ZoomEndTime time="3206093fs"></ZoomEndTime>
+      <Cursor1Time time="3100fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="166"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="48" />
+   <wvobject fp_name="/mips_wrapper/mips_i/RegFile_0/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/mux_4/muxOut" type="array">
+      <obj_property name="ElementShortName">muxOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">muxOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/ctrlHDU_0/branch" type="logic">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/instructionMemory_0/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/ctrlHDU_0/PCWrite" type="logic">
+      <obj_property name="ElementShortName">PCWrite</obj_property>
+      <obj_property name="ObjectShortName">PCWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/ctrlHDU_0/IF_ID_Write" type="logic">
+      <obj_property name="ElementShortName">IF_ID_Write</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_Write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/ctrlHDU_0/IF_ID_PCSrc" type="logic">
+      <obj_property name="ElementShortName">IF_ID_PCSrc</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_PCSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/ctrlHDU_0/PCSrcOut" type="logic">
+      <obj_property name="ElementShortName">PCSrcOut</obj_property>
+      <obj_property name="ObjectShortName">PCSrcOut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/controlLogic_0/regWrite" type="logic">
+      <obj_property name="ElementShortName">regWrite</obj_property>
+      <obj_property name="ObjectShortName">regWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/instructionSlice/pipeline_0_Q" type="array">
+      <obj_property name="ElementShortName">pipeline_0_Q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pipeline_0_Q[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/RegFile_0/regWrAddr" type="array">
+      <obj_property name="ElementShortName">regWrAddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">regWrAddr[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/RegFile_0/regWrData" type="array">
+      <obj_property name="ElementShortName">regWrData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">regWrData[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/RegFile_0/regWrEn" type="logic">
+      <obj_property name="ElementShortName">regWrEn</obj_property>
+      <obj_property name="ObjectShortName">regWrEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/dataMemory_0/readAddress" type="array">
+      <obj_property name="ElementShortName">readAddress[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readAddress[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/dataMemory_0/writeAddress" type="array">
+      <obj_property name="ElementShortName">writeAddress[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writeAddress[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/dataMemory_0/writeData" type="array">
+      <obj_property name="ElementShortName">writeData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writeData[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/dataMemory_0/readData" type="array">
+      <obj_property name="ElementShortName">readData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/dataMemory_0/memWrite" type="logic">
+      <obj_property name="ElementShortName">memWrite</obj_property>
+      <obj_property name="ObjectShortName">memWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/RegFile_0/regRdAddr1" type="array">
+      <obj_property name="ElementShortName">regRdAddr1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">regRdAddr1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/RegFile_0/regRdAddr2" type="array">
+      <obj_property name="ElementShortName">regRdAddr2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">regRdAddr2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/RegFile_0/regRdData1" type="array">
+      <obj_property name="ElementShortName">regRdData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">regRdData1[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/RegFile_0/regRdData2" type="array">
+      <obj_property name="ElementShortName">regRdData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">regRdData2[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/RegFile_0/regWrData" type="array">
+      <obj_property name="ElementShortName">regWrData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">regWrData[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/alu_0/op1" type="array">
+      <obj_property name="ElementShortName">op1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op1[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/alu_0/op2" type="array">
+      <obj_property name="ElementShortName">op2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op2[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/alu_0/aluOp" type="array">
+      <obj_property name="ElementShortName">aluOp[2:0]</obj_property>
+      <obj_property name="ObjectShortName">aluOp[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/alu_0/aluOut" type="array">
+      <obj_property name="ElementShortName">aluOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluOut[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/instructionSlice/xlslice_0_Dout" type="array">
+      <obj_property name="ElementShortName">xlslice_0_Dout[4:0]</obj_property>
+      <obj_property name="ObjectShortName">xlslice_0_Dout[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/instructionSlice/xlslice_1_Dout" type="array">
+      <obj_property name="ElementShortName">xlslice_1_Dout[4:0]</obj_property>
+      <obj_property name="ObjectShortName">xlslice_1_Dout[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/instructionSlice/xlslice_2_Dout" type="array">
+      <obj_property name="ElementShortName">xlslice_2_Dout[4:0]</obj_property>
+      <obj_property name="ObjectShortName">xlslice_2_Dout[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/instructionMemory_0/addressBus" type="array">
+      <obj_property name="ElementShortName">addressBus[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addressBus[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/alu_0/zeroFlag" type="logic">
+      <obj_property name="ElementShortName">zeroFlag</obj_property>
+      <obj_property name="ObjectShortName">zeroFlag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/instructionSlice/Din" type="array">
+      <obj_property name="ElementShortName">Din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/instructionSlice/Dout" type="array">
+      <obj_property name="ElementShortName">Dout[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/instructionSlice/Dout1" type="array">
+      <obj_property name="ElementShortName">Dout1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/instructionSlice/Dout2" type="array">
+      <obj_property name="ElementShortName">Dout2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/dataMemory_0/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/controlLogic_0/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/controlLogic_0/regDst" type="logic">
+      <obj_property name="ElementShortName">regDst</obj_property>
+      <obj_property name="ObjectShortName">regDst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/controlLogic_0/aluSrc" type="logic">
+      <obj_property name="ElementShortName">aluSrc</obj_property>
+      <obj_property name="ObjectShortName">aluSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/controlLogic_0/jmpdetect" type="logic">
+      <obj_property name="ElementShortName">jmpdetect</obj_property>
+      <obj_property name="ObjectShortName">jmpdetect</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/controlLogic_0/aluOp" type="array">
+      <obj_property name="ElementShortName">aluOp[2:0]</obj_property>
+      <obj_property name="ObjectShortName">aluOp[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/controlLogic_0/memWrite" type="logic">
+      <obj_property name="ElementShortName">memWrite</obj_property>
+      <obj_property name="ObjectShortName">memWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/controlLogic_0/memToReg" type="logic">
+      <obj_property name="ElementShortName">memToReg</obj_property>
+      <obj_property name="ObjectShortName">memToReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/controlLogic_0/pcSrc" type="logic">
+      <obj_property name="ElementShortName">pcSrc</obj_property>
+      <obj_property name="ObjectShortName">pcSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/mux_4/in0" type="array">
+      <obj_property name="ElementShortName">in0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/mux_4/in1" type="array">
+      <obj_property name="ElementShortName">in1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_wrapper/mips_i/mux_4/ctrl" type="logic">
+      <obj_property name="ElementShortName">ctrl</obj_property>
+      <obj_property name="ObjectShortName">ctrl</obj_property>
+   </wvobject>
+</wave_config>

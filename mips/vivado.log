@@ -1,0 +1,205 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Apr 28 15:06:20 2022
+# Process ID: 18128
+# Current directory: D:/Vivado/Projects/mips_miniProject_FINAL/mips
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20360 D:\Vivado\Projects\mips_miniProject_FINAL\mips\mips.xpr
+# Log file: D:/Vivado/Projects/mips_miniProject_FINAL/mips/vivado.log
+# Journal file: D:/Vivado/Projects/mips_miniProject_FINAL/mips\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vivado/Projects/mips_miniProject_FINAL/mips/mips.xpr
+INFO: [Project 1-313] Project file moved from 'D:/BITS/ECE 3-2/CS F342 - COMPUTER ARCHITECHTURE/miniProject/mips' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/Vivado/Projects/Assignment 2/mips/mips.srcs/sources_1/new/pipelineReg.v', nor could it be found using path 'D:/BITS/ECE 3-2/CS F342 - COMPUTER ARCHITECHTURE/Assignment 2/mips/mips.srcs/sources_1/new/pipelineReg.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/Vivado/Projects/Assignment 2/mips/mips.srcs/sources_1/new/concat.v', nor could it be found using path 'D:/BITS/ECE 3-2/CS F342 - COMPUTER ARCHITECHTURE/Assignment 2/mips/mips.srcs/sources_1/new/concat.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/Vivado/Projects/Assignment 2/mips/mips.srcs/sources_1/new/andGate.v', nor could it be found using path 'D:/BITS/ECE 3-2/CS F342 - COMPUTER ARCHITECHTURE/Assignment 2/mips/mips.srcs/sources_1/new/andGate.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:47 ; elapsed = 00:00:29 . Memory (MB): peak = 988.684 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_bd_design {D:/Vivado/Projects/mips_miniProject_FINAL/mips/mips.srcs/sources_1/bd/mips/mips.bd}
+Reading block design file <D:/Vivado/Projects/mips_miniProject_FINAL/mips/mips.srcs/sources_1/bd/mips/mips.bd>...
+Adding component instance block -- xilinx.com:module_ref:mux:1.0 - mux_1
+Adding component instance block -- xilinx.com:module_ref:mux:1.0 - mux_2
+Adding component instance block -- xilinx.com:module_ref:shiftLeft:1.0 - shiftLeft_0
+Adding component instance block -- xilinx.com:module_ref:mux:1.0 - mux_3
+Adding component instance block -- xilinx.com:module_ref:RegFile:1.0 - RegFile_0
+Adding component instance block -- xilinx.com:module_ref:alu:1.0 - alu_0
+Adding component instance block -- xilinx.com:module_ref:mux:1.0 - mux_4
+Adding component instance block -- xilinx.com:module_ref:mux:1.0 - mux_0
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_0
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/IF_ID/pipeline_0'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_1
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/IF_ID/pipeline_1'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_2
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/IF_ID/pipeline_2'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_3
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/IF_ID/pipeline_3'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_4
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/IF_ID/pipeline_4'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_6
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/IF_ID/pipeline_6'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_7
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/IF_ID/pipeline_7'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_8
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/IF_ID/pipeline_8'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_9
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/IF_ID/pipeline_9'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:adder:1.0 - adder_1
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_0
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/ID_EX/pipeline_0'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_10
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/ID_EX/pipeline_10'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_11
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/ID_EX/pipeline_11'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_12
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/ID_EX/pipeline_12'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_13
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/ID_EX/pipeline_13'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_1
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/ID_EX/pipeline_1'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_2
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/ID_EX/pipeline_2'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_3
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/ID_EX/pipeline_3'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_4
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/ID_EX/pipeline_4'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_5
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/ID_EX/pipeline_5'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_6
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/ID_EX/pipeline_6'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_7
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/ID_EX/pipeline_7'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_8
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/ID_EX/pipeline_8'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_9
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/ID_EX/pipeline_9'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_0
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/EX_MEM/pipeline_0'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_1
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/EX_MEM/pipeline_1'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_2
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/EX_MEM/pipeline_2'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_3
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/EX_MEM/pipeline_3'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_4
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/EX_MEM/pipeline_4'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_5
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/EX_MEM/pipeline_5'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:module_ref:concat:1.0 - concat_0
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/Jump_Block/concat_0'.
+Given inputs for module-source, Top-module name : concat, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_5
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_4
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_0
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/MEM_WB/pipeline_0'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_1
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/MEM_WB/pipeline_1'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_2
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/MEM_WB/pipeline_2'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_3
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/MEM_WB/pipeline_3'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:pipeline:1.0 - pipeline_4
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/MEM_WB/pipeline_4'.
+Given inputs for module-source, Top-module name : pipeline, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_3
+Adding component instance block -- xilinx.com:module_ref:signExtern:1.0 - signExtern_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_1
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_2
+Adding component instance block -- xilinx.com:module_ref:adder:1.0 - adder_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - constantFour
+Adding component instance block -- xilinx.com:module_ref:andGate:1.0 - andGate_0
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/andGate_0'.
+Given inputs for module-source, Top-module name : andGate, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:programCounter:1.0 - programCounter_0
+Adding component instance block -- xilinx.com:module_ref:dataMemory:1.0 - dataMemory_0
+Adding component instance block -- xilinx.com:module_ref:controlLogic:1.0 - controlLogic_0
+Adding component instance block -- xilinx.com:module_ref:regFileFW:1.0 - regFileFW_0
+Adding component instance block -- xilinx.com:module_ref:mux2:1.0 - mux2_1
+Adding component instance block -- xilinx.com:module_ref:mux2:1.0 - mux2_0
+Adding component instance block -- xilinx.com:module_ref:FU:1.0 - FU_0
+Adding component instance block -- xilinx.com:module_ref:instructionMemory:1.0 - instructionMemory_0
+Adding component instance block -- xilinx.com:module_ref:ctrlHDU:1.0 - ctrlHDU_0
+Successfully read diagram <mips> from block design file <D:/Vivado/Projects/mips_miniProject_FINAL/mips/mips.srcs/sources_1/bd/mips/mips.bd>
+open_bd_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 988.684 ; gain = 0.000
+regenerate_bd_layout -routing
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 29 02:01:49 2022...

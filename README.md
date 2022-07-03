@@ -4,3 +4,5 @@ This project is a five stage pipelined MIPS processor with mitigation strategies
 
 # Report
 A MIPS pipelined processor faces several data hazards and control hazards. A detailed report of the strategies used to mitigate each of the data and control hazards is also added.
+
+# Instructions on how to open the Project
